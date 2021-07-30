@@ -1,3 +1,4 @@
+/* header style  */
 .honda-bg-info{
     background-color:#264653;
 }
@@ -9,13 +10,22 @@
     color: #FFFF;
     font-weight: 500;
     font-size:16px;
+}
 
+/* featured section style */
+.featured{
+    width:288px;
+    height:243px;
 }
 .gray-scale{
     filter:grayscale(100%);
 }
 
 /* happy client section  */
+.client{
+    width: 322px;
+    height:478px;
+}
 .fa-star{
     font-size: 22px;
 }
