@@ -1,0 +1,28 @@
+.honda-bg-info{
+    background-color:#264653;
+}
+.honda-btn-purchase{
+    width: 168px;
+    height: 44px;
+    background-color: #E76F51;
+    border-radius: 5px;
+    color: #FFFF;
+    font-weight: 500;
+    font-size:16px;
+
+}
+.gray-scale{
+    filter:grayscale(100%);
+}
+
+/* happy client section  */
+.fa-star{
+    font-size: 22px;
+}
+
+ .fa-star.filled{
+color:#E77c40;
+}
+.fa-star.empty{
+    color:#E77c40;
+}

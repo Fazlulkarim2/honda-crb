@@ -11,23 +11,29 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/67f52b1a02.js" crossorigin="anonymous"></script>
+    <!-- custom style  -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <!-- start header -->
     <header>
-        <section class="container bg-info">
+        <section class="container honda-bg-info">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-6 d-flex align-items-center ">
                     <div class="p-5">
-                        <p>Computer-controlled digital transistorized with electronic advance</p>
-                        <h1 class="fw-bold">Honda CBR 300R</h1>
-                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                        <p class="text-white fs-6 fw-light">Computer-controlled digital transistorized with electronic
+                            advance
+                        </p>
+                        <h1 class="text-white fw-bold fs-1">Honda CBR 300R</h1>
+                        <p class="text-white fs-5 fw-lighter">Amet minim mollit non deserunt ullamco est sit aliqua
+                            dolor
+                            do amet sint. Velit officia
                             consequat
                             duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
 
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        <button type="button" class="honda-btn-purchase" data-bs-toggle="modal"
                             data-bs-target="#exampleModal">
                             Purchase
                         </button>
@@ -63,20 +69,20 @@
         </section>
     </header>
     <main>
-        <!-- feature section -->
+        <!-- featured section -->
         <section class=" container mt-5">
             <div class="text-center">
-                <h2>Fetured Bikes 2021</h2>
-                <p><small class="text-danger">Best bike collection</small></p>
+                <h1 class="fw-bold fs-1">Fetured Bikes 2021</h1>
+                <p><small class="text-danger fs-6 fw-bolder">Best bike collection</small></p>
             </div>
             <div class="row  row-cols-1 row-cols-md-2 row-cols-lg-3 pt-5 ms-5 d-flex align-items-center g-5">
-                <div class="">
+                <div class="gray-scale">
                     <img class="w-75" src="images/feature-bike.jpg" alt="">
                 </div>
                 <div class="">
                     <img class="w-75" src="images/feature-bike.jpg" alt="">
                 </div>
-                <div class="">
+                <div class="gray-scale">
                     <img class="w-75" src="images/feature-bike.jpg" alt="">
                 </div>
 
@@ -84,9 +90,9 @@
         </section>
         <!-- latest bike section -->
         <section class="container mt-5 pt-5 mb-5">
-            <h2 class="text-center">
+            <h1 class="text-center fw-bold fs-1">
                 Latest News
-            </h2>
+            </h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-5">
                 <div class="col">
                     <div class="card border-1 shadow-sm p-3 mb-5 bg-body rounded  h-100">
@@ -132,71 +138,68 @@
             </div>
         </section>
         <!-- client section -->
-        <section class="container">
-            <h2 class="text-center">
+        <section class="container mt-5 mb-5">
+            <h1 class="text-center fw-bold mb-5">
                 Happy <span class="text-danger">Client Says</span>
-            </h2>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-5">
-                <div class="col ">
-                    <div class="card border-1 shadow-sm p-3 mb-5 bg-body rounded  h-90">
-                        <img src="images/user-1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
+            </h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="col">
+                    <div class="card w-80 h-100 d-flex align-items-center pt-3 ">
+                        <div class="w-50">
+                            <img src="images/user-1.png" class="card-img-top " alt="...">
+                        </div>
+                        <div class="card-body  text-center ">
                             <p class="card-text fs-5 fw-normal">Slate helps you see how
                                 many more days you need
                                 to work to reach your financial
                                 goal for the month and year.</p>
-                            <div class="text-center">
-                                <i class="far fa-star filled"></i>
-                                <i class="far fa-star filled"></i>
-                                <i class="far fa-star filled"></i>
-                                <i class="far fa-star filled"></i>
-                                <i class="far fa-star empty"></i>
-                                <p class="fw-bolder text-info">ragia miles</p>
-                                <p class="fw-bolder">Banker</p>
-
-                            </div>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="far fa-star empty"></i>
+                            <p class="fw-bolder text-info">ragia miles</p>
+                            <p class="fw-bolder">Banker</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card border-1 shadow-sm p-3 mb-5 bg-body rounded  h-90">
-                        <img src="images/user-2.png" class="card-img-top " alt="...">
-                        <div class="card-body">
+                    <div class="card w-80 h-100 d-flex align-items-center pt-3">
+                        <div class="w-50">
+                            <img src="images/user-2.png" class="card-img-top " alt="...">
+                        </div>
+                        <div class="card-body  text-center ">
                             <p class="card-text fs-5 fw-normal">Slate helps you see how
                                 many more days you need
                                 to work to reach your financial
                                 goal for the month and year.</p>
-                            <div class="text-center">
-                                <i class="far fa-star filled"></i>
-                                <i class="far fa-star filled"></i>
-                                <i class="far fa-star filled"></i>
-                                <i class="far fa-star filled"></i>
-                                <i class="far fa-star empty"></i>
-                                <p class="fw-bolder text-info">ragia miles</p>
-                                <p class="fw-bolder">Banker</p>
-
-                            </div>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="far fa-star empty"></i>
+                            <p class="fw-bolder text-info">ragia miles</p>
+                            <p class="fw-bolder">Banker</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card border-1 shadow-sm p-3 mb-5 bg-body rounded  h-90">
-                        <img src="images/user-3.jpg" class="card-img-top " alt="...">
-                        <div class="card-body">
+                    <div class="card w-80 h-100 d-flex align-items-center pt-3">
+                        <div class="w-50">
+                            <img src="images/user-3.jpg" class="card-img-top " alt="...">
+                        </div>
+                        <div class="card-body  text-center ">
                             <p class="card-text fs-5 fw-normal">Slate helps you see how
                                 many more days you need
                                 to work to reach your financial
                                 goal for the month and year.</p>
-                            <div class="text-center">
-                                <i class="far fa-star filled"></i>
-                                <i class="far fa-star filled"></i>
-                                <i class="far fa-star filled"></i>
-                                <i class="far fa-star filled"></i>
-                                <i class="far fa-star empty"></i>
-                                <p class="fw-bolder text-info">ragia miles</p>
-                                <p class="fw-bolder">Banker</p>
-
-                            </div>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="far fa-star empty"></i>
+                            <p class="fw-bolder text-info">ragia miles</p>
+                            <p class="fw-bolder">Banker</p>
                         </div>
                     </div>
                 </div>
@@ -204,13 +207,13 @@
         </section>
         <!-- question section -->
         <section class="container mb-5">
-            <h2 class="text-center mb-5">Frequently Asked <span class="text-danger">Question</span></h2>
+            <h1 class="text-center fw-boldmb-5">Frequently Asked <span class="text-danger">Question</span></h1>
             <div
                 class="row row-cols-1 row-cols-md-2 row-cols-lg-3 d-flex align-items-center justify-content-center justify-content-evenly">
                 <div class="col ">
-                    <img class="w-100 mt-5 " src="images/faq.png" alt="">
+                    <img class="w-100 mt-5" src="images/faq.png" alt="">
                 </div>
-                <div class="accordion" id="accordionExample">
+                <div class="accordion mt-5 pt-5" id="accordionExample">
                     <div class="accordion-item mb-2 border-info rounded">
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button fs-5 fw-normal " type="button" data-bs-toggle="collapse"
